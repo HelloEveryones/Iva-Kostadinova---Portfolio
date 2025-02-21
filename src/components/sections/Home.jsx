@@ -7,9 +7,9 @@ export const Home = () => {
       className="min-h-screen flex flex-col items-center justify-center text-center px-4 pt-24"
     >
       <RevealOnScroll>
-        {/* Центриране на снимката и правилен път */}
+        
         <img
-          src="/portfolio.jpg" // Ако е в public/
+          src={`${import.meta.env.BASE_URL}cv.jpg`}  
           alt="Iva Kostadinova"
           className="w-40 h-40 md:w-56 md:h-56 rounded-full border-4 border-blue-500 shadow-lg object-cover mb-6"
         />
