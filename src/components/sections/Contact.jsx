@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,8 +9,6 @@ export const Contact = () => {
     email: "",
     message: "",
   });
-
-  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -27,15 +26,15 @@ export const Contact = () => {
       })
       .catch(() => alert("Oops! Something went wrong. Please try again!"));
   };
+
   return (
     <section
       id="contact"
       className="min-h-[90vh] flex flex-col items-center justify-center py-10 px-4"
-      >
-    
+    >
       <RevealOnScroll>
-      <div className="w-full max-w-lg px-6">
-      <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <div className="w-full max-w-lg px-6">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get in Touch
           </h2>
           <form className="space-y-6" onSubmit={handleSubmit}>
@@ -85,11 +84,42 @@ export const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] "
+              className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
             >
               Send message
             </button>
           </form>
+
+          {/* Контактна информация */}
+          <div className="mt-8 flex flex-col items-center space-y-4 text-white">
+            <a
+              href="https://www.linkedin.com/in/iva-kostadinova-4a43ab261/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 hover:text-blue-400 transition"
+            >
+              <FaLinkedin size={24} />
+              <span>LinkedIn</span>
+            </a>
+
+            <a
+              href="https://github.com/HelloEveryones"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 hover:text-gray-400 transition"
+            >
+              <FaGithub size={24} />
+              <span>GitHub</span>
+            </a>
+
+            <a
+              href="tel:+359888888888"
+              className="flex items-center space-x-2 hover:text-green-400 transition"
+            >
+              <FaPhone size={24} />
+              <span>+359 899559756</span>
+            </a>
+          </div>
         </div>
       </RevealOnScroll>
     </section>
