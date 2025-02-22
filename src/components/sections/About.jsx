@@ -64,7 +64,7 @@ export const About = () => {
                   
                   <div className="text-center">
                     <a
-                      href="https://softuni.bg/certificates/details/238022/029d7001"
+                      href="https://softuni.bg/users/profile/certificates?username=IvaDimitrovaKostadinova"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -76,7 +76,7 @@ export const About = () => {
                     </a>
                     <p className="text-sm text-gray-400 mt-2">
                       <a
-                        href="https://softuni.bg/certificates/details/238022/029d7001"
+                        href="https://softuni.bg/users/profile/certificates?username=IvaDimitrovaKostadinova"
                         className="text-blue-400 hover:underline"
                         target="_blank"
                         rel="noopener noreferrer"
