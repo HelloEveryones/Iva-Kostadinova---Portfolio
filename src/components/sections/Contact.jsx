@@ -90,7 +90,6 @@ export const Contact = () => {
             </button>
           </form>
 
-          
           <div className="mt-8 flex flex-col items-center space-y-4 text-white">
             <a
               href="https://www.linkedin.com/in/iva-kostadinova-4a43ab261/"
@@ -125,3 +124,5 @@ export const Contact = () => {
     </section>
   );
 };
+
+

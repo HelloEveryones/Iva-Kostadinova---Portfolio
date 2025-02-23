@@ -50,7 +50,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="w-full h-64 mb-4">
                 <iframe 
-                  src="https://moviemaniareact.netlify.app/" 
+                  src="https://moviesworldangular.netlify.app/home" 
                   title="React Project"
                   className="w-full h-full rounded-xl border"
                   loading="lazy"
