@@ -47,7 +47,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="w-full h-64 mb-4">
                 <iframe 
                   src="https://moviesworldangular.netlify.app/home" 
@@ -81,7 +81,7 @@ export const Projects = () => {
                   ➡️ Click to see the Project ⬅️
                 </a>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
