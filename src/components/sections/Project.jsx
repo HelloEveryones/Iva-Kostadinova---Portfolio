@@ -26,7 +26,7 @@ export const Projects = () => {
                 It features user authentication, movie management, and comment functionality, integrating a REST API for real-time data.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Angular", "TypeScript", "REST API", "Firebase"].map((tech, key) => (
+                {["Angular", "TypeScript"," JWT (JSON Web Token)", "Angular Router", "HTML/CSS", "REST API"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -56,13 +56,13 @@ export const Projects = () => {
                   loading="lazy"
                 ></iframe>
               </div>
-              <h3 className="text-xl font-bold mb-2">React Project</h3>
+              <h3 className="text-xl font-bold mb-2">🎬 Movie Mania - React SPA with Weather API Integration</h3>
               <p className="text-gray-400 mb-4">
-                A web application built with React that allows users to explore and discover various movies effortlessly.
-                The project integrates a movie database API to fetch and display details such as title, release year, genre, rating, and description.
+              Movie Mania is a web application built with React, allowing users to explore, discover, and manage movies effortlessly.
+              The project integrates an external movie database API to fetch and display movie details such as title, release year, genre, rating, and description.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node", "JavaScript", "Vite"].map((tech, key) => (
+                {["React, React Router, React Hooks, Context API", "Node", "JavaScript", "External Movie Database API, Weather API", "Vite"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
